@@ -3,10 +3,36 @@
     padding: 0;
     outline: 0;
 }
+ul li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 .flex{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .container{
     width: 1320px;
     margin: 0 auto;
+}
+.headerpart{
+    padding: 25px 0;
+}
+
+.menu ul li {
+    text-transform: uppercase;
+    padding: 0 22px;
+      font-family: "Rubik", sans-serif;
+}
+.buttonpart button{
+    padding: 11px 22px; 
+    background:#5E3BEE;  
+    color: white;
+    border-radius: 50px;
+    border: none;
+    
 }
